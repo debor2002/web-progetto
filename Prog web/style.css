@@ -1,0 +1,310 @@
+body {
+    background-color: rgb(223,246,211);
+    font-family:  Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+}
+
+img {
+    max-width:100%;
+   
+    
+}
+
+body{
+    margin: 40px;
+   
+}
+
+
+header {
+    
+   max-width: 1500px;
+   margin:35px auto;
+   display: flex;
+   justify-content: space-between;
+   font-size: x-large
+   
+}
+
+section.info{
+    max-width: 1500px;
+    margin: 35px auto;
+    padding: 20px 40px;
+    margin-bottom: 40 px;
+    
+    
+}
+section.info.img {
+    max-width:100%;
+    position: center;
+    
+}
+
+header p {
+    margin:0;
+
+    
+}
+
+nav ul {
+ display: flex;
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ gap: 20px;
+ font-size: x-large
+}
+
+
+header p {
+    margin-top: 0;
+    padding-bottom: 60px;
+    text-decoration: none;
+    color: rgb(8, 5, 5);
+    font-size: x-large
+    
+
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(8, 5, 5);
+    
+}
+
+
+header a:hover {
+    color: rgb(151,191, 144);
+    text-decoration:underline ;
+   
+}
+
+header p:hover {
+    color: rgb(151,191, 144);
+    text-decoration:underline ;
+}
+
+
+
+section.info p {
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.618);
+    font-size: 40px;
+    
+}
+
+
+section.info h1{
+    padding-top: 40px;
+    margin-left: 40px;
+    text-align: center;
+    font-size: 50px;
+    
+}
+section.info p{
+    text-align: center;
+}
+
+
+ 
+section.card {
+    gap: 50px;
+    max-width: 1000px;
+    margin-left: 200px;
+    margin-right: 150px;
+    margin-bottom: 70px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+    
+    
+}
+
+section.card p {
+    font-size: 30px;
+    margin: auto;
+    padding: 20px 10px 20px 20px;
+    background-color: rgb(151,191, 144);
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+    
+}
+
+
+section.info{
+    padding: 20px 40px;
+    margin-bottom: 40px;
+
+}
+
+section.card div{
+     background-color:rgb(151,191, 144) ;
+     border-radius: 10px;
+     
+}
+
+
+section.card img {
+    border-radius: 10px 10px 0 0;
+    height: 250px;
+    width: 150%;
+    object-fit: cover;
+}
+
+div img{
+    border-radius: 10px;
+    max-block-size: 230px;
+ 
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    
+}
+
+footer button {
+   
+    background-color: rgb(151,191, 144);
+    border-radius: 10px;
+    font-size:x-large;
+    text-align: center;
+    margin-left: 56px;
+      
+}
+
+section.ORIGINANDMYTH{
+    max-width: 900px;
+    margin: auto;
+}
+    
+section.ORIGIN .bio h2{
+    font-size: 40px;
+    margin-top: 50px;
+    padding-top: 80px;
+    margin-left: 200px;
+   
+
+}
+section.ORIGIN .bio p{
+    font-size: 30px;
+    margin-right: 200px;
+    margin-left: 200px;
+   
+    text-decoration: none;
+    
+}
+
+section.ORIGIN img{
+    border-radius: 40px;
+    max-block-size: 900px;
+    max-width: 1000px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+section.VISUALS {
+    max-width: 900px;
+    margin: auto;
+}
+
+section.VISUALS img {
+    border-radius: 40px;
+    max-block-size: 900px;
+    max-width: 1000px;
+}
+    
+section.VISUALS .bio h2{
+    font-size: 40px;
+    margin-top: 50px;
+    padding-top: 80px;
+}
+
+section.VISUALS .bio p{
+    font-size: 30px;
+    margin-right: 100px;
+   
+    text-decoration: none;
+    
+}
+section.BALANCE {
+    max-width: 900px;
+    margin: auto;
+}
+section.BALANCE img{
+    border-radius: 40px;
+    max-block-size: 900px;
+} 
+section.BALANCE .bio h2{
+    font-size: 40px;
+    margin-top: 50px;
+    padding-top: 80px;
+}
+section.BALANCE .bio p{
+    font-size: 30px;
+    margin-right: 100px;
+    text-decoration: none;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+    
+    }
+     
+    
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    nav ul li:last-child {
+        float: none;
+        margin-right: 10px;
+    }
+    .banner h2 {
+        font-size: 24px;
+    }
+    .banner p {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+/*body {
+    background-color: rgb(223, 246, 211);
+}
+
+.akshar-font {
+    font-family: "Akshar", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; 
+    font-style: normal;
+}
+
+header {
+    background-color: rgb(151, 191, 144);
+    max-width: 1000px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-right: 10px; 
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: #000; 
+}*/
